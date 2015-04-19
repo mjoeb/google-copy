@@ -1,0 +1,88 @@
+body {
+    font-family:Helvetica Georgia sans-serif;
+    margin: 10px 0;
+}
+a {
+    color:#555;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 .5em;
+
+}
+li a {
+    text-decoration: none;
+}
+li a:hover {
+    text-decoration: underline;
+}
+.header {
+    height: 20px;
+    position: absolute;
+    right: 0;
+}
+.special {
+    border: 1px solid #FFF;
+    background: #4585F1;
+    padding: 5px;
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+        border-radius: 2px;
+}
+.special:hover {
+    text-decoration: none;
+    border: 1px solid #4585F1;
+
+}
+.main { 
+  position: absolute;
+  width: 600px;
+  height: 200px;
+  top:50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.main img {
+    width: 400px;
+    height: 100px;
+}
+img {
+    display: block;
+    margin: auto;
+}
+input[type="search"] {
+    width: 110%;
+    height: 1.5em;
+    position: relative;
+    left: -40px;
+    margin-bottom: 10px;
+}
+.button {
+    width: 270px;
+    margin: auto;
+}
+.button input[type="submit"] {
+    float: left;
+}
+.button input[type="button"] {
+    float: right;
+}
+
+.footer {
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    margin-bottom: 10px;
+    bottom:0;
+}
+.footer ul.left {
+    float: left;
+}
+.footer ul.right {
+    float: right;
+}
